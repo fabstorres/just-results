@@ -1,11 +1,13 @@
 {
   "name": "@fabstack/justresults",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Minimal, type‑safe, zero‑overhead result type and helper for JavaScript and TypeScript.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc"
   },
@@ -13,7 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/fabstorres/just-results.git"
   },
-  "keywords": ["results", "typescript", "error-handling", "ok-fail"],
+  "keywords": [
+    "results",
+    "typescript",
+    "error-handling",
+    "ok-fail"
+  ],
   "author": "Fabian Torres",
   "license": "MIT",
   "bugs": {
